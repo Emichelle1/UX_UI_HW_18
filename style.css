@@ -155,5 +155,9 @@ nav ul a {
 #container .column {
     padding-top: 1em;
 }
+      @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
 
 </style>
